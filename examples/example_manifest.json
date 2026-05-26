@@ -1,0 +1,13 @@
+{
+  "run_id": "run_YYYYMMDD_HHMMSS",
+  "mode": "scan_det",
+  "target_class": "red",
+  "confidence": 0.6,
+  "frame_skip": 2,
+  "video_dir": "input_videos/",
+  "detector_run_dir": "experiments/run_YYYYMMDD_HHMMSS/",
+  "outputs": {
+    "scan_report": "experiments/run_YYYYMMDD_HHMMSS/scan_outputs/scan_report.csv",
+    "detections_dir": "experiments/run_YYYYMMDD_HHMMSS/scan_outputs/"
+  }
+}

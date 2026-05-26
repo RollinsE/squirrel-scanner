@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+ultralytics
+opencv-python==4.9.0.80
+numpy>=2.3
+pandas
+PyYAML==6.0.1
+pillow
+tqdm>=4.66.2

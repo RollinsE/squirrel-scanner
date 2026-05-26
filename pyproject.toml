@@ -1,0 +1,11 @@
+[project]
+name = "squirrel-scanner"
+version = "1.0.0"
+description = "Desktop and CLI wildlife video scanning pipeline for squirrel detection."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"

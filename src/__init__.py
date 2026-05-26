@@ -1,0 +1,1 @@
+"""Squirrel Scanner pipeline package."""

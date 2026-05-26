@@ -1,0 +1,12 @@
+# Example scan settings for Squirrel Scanner.
+# This file is documentation-oriented; current scanning is controlled through CLI flags or the GUI.
+
+target_class: red
+confidence: 0.6
+iou: 0.5
+frame_skip: 2
+scan_imgsz: 640
+save_every_hit: false
+rescue_on_negative: true
+rescue_conf: 0.35
+rescue_frame_skip: 1

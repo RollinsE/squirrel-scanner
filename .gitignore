@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and outputs
+datasets/
+data/
+experiments/
+runs/
+outputs/
+videos/
+video/
+logs/
+release_builds/
+dist/
+build/
+
+# Model artifacts and binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.mlmodel
+*.torchscript
+*.exe
+*.zip
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
