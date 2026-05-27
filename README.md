@@ -783,4 +783,4 @@ Contributions should keep datasets, videos, model weights, API keys, and local r
 
 ## License
 
-`<LICENSE>`
+[LICENSE](LICENSE)
