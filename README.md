@@ -5,7 +5,7 @@
 
 Squirrel Scanner was created to support red squirrel conservation work on Brownsea Island.
 
-During routine wildlife monitoring, conservation teams may need to review thousands of camera-trap videos to find the clips that contain red squirrels. This project helps reduce that manual workload by using computer vision to scan video folders, flag likely red squirrel sightings, and save useful detection outputs for review.
+During routine wildlife monitoring, conservation teams review thousands of camera-trap videos to find the clips that contain red squirrels. This project helps reduce that manual workload by using computer vision to scan video folders, flag red squirrel sightings, and save useful detection outputs for review.
 
 The pipeline can also be trained to recognise visually similar species, including grey squirrels, pine martens, and rats. This matters because animals such as rats can sometimes be mistaken for red squirrels, especially in low-light, blurry, or distant footage.
 
@@ -42,11 +42,11 @@ The command-line tools are used for dataset preparation, training, evaluation, a
 Squirrel Scanner provides tools to:
 
 - download public Roboflow object-detection datasets;
-- merge several YOLO-style datasets into one consistent class list;
+- merge different datasets into one consistent class list;
 - train one or more Ultralytics detection models;
 - continue interrupted training runs;
 - scan wildlife video folders with a trained detector;
-- save logs, metrics, weights, and scan outputs in organised run folders;
+- save logs, metrics, weights, and scan outputs in run folders;
 - provide a simple desktop interface for users who only need to scan videos.
 
 The main classes currently used by the project are:
@@ -97,8 +97,7 @@ Current Roboflow dataset references:
 
 ```text
 rollins/redz_greyz_martenz-95g9v/21
-rollins/red-squirrels/1
-rollins/rats-feqor-g6tbp/1
+rollins/red-squirrels/2
 ```
 
 A merged YOLO dataset is created locally and usually looks like this:
@@ -122,9 +121,7 @@ merged_dataset/
 
 The datasets are publicly available on Roboflow. Public availability does not automatically define reuse rights, so check the licence shown on the Roboflow dataset page before redistribution or commercial reuse.
 
-Dataset licence: `<ROBOFLOW_DATASET_LICENSE>`
-
-Dataset page: `<ROBOFLOW_DATASET_URL>`
+Dataset page: [Roboflow Universe](https://universe.roboflow.com/wildlife-yef4f/redz_greyz_martenz)
 
 ---
 
